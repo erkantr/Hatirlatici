@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@drawable/bg_corner_16"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/onerimetin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_orange_corner_16"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Zoom Hatırlatıcısı Oluştur"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/onerimetin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/bold"
+            android:text="Ayarlamak için oluştur butonuna tıklayın"
+            android:textSize="14sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tarih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_edit_calendar_24"
+                android:theme="@style/AppTheme"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                android:editable="false"
+                android:hint="Tarih"
+                android:textSize="15sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/saat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_more_time_24"
+                android:drawablePadding="12dp"
+                android:layout_marginTop="10dp"
+                android:editable="false"
+                android:hint="Saat"
+                android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/iptal"
+                style="@style/loginButton2"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/font1"
+                android:gravity="center"
+                android:layout_marginRight="60dp"
+                android:text="iptal"
+                android:textColor="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/gonder"
+                style="@style/loginButton"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:fontFamily="@font/font1"
+                android:text="Oluştur"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

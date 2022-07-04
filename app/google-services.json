@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "757622850429",
+    "project_id": "hatirlatici-a96f4",
+    "storage_bucket": "hatirlatici-a96f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757622850429:android:140a8d7edd3f5103ca0214",
+        "android_client_info": {
+          "package_name": "com.bysoftware.uyku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757622850429-vh3qojc28eggciku2hv0psc0u8s9ddnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bysoftware.uyku",
+            "certificate_hash": "bab6bd307a420ab83bc34fac787ece6400da91d1"
+          }
+        },
+        {
+          "client_id": "757622850429-93efbh6uih4ob48t02bo5b9f80qu14lu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA9Qkbr6d0hbp8F5kDj-SYiKVGdvihCDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757622850429-93efbh6uih4ob48t02bo5b9f80qu14lu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
